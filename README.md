@@ -1,0 +1,1 @@
+# Struktirinis2025
