@@ -131,9 +131,9 @@ int main() {
             for (int i = 0; i < mokKiekis; i++) {
                 if (Vardas[i] == vardas) {
                     rastas = true;
-                    cout << "Mokinys " << vardas[i] << " buvo pasalintas!" << endl;
+                    cout << "Mokinys " << Vardas[i] << " buvo pasalintas!" << endl;
                     for (int k = i; k < mokKiekis - 1; k++) {
-                        vardas[k] = vardas[k + 1];
+                        Vardas[k] = Vardas[k + 1];
                         for (int j = 0; j < 10; j++) {
                             pazimiai[k][j] = pazimiai[k + 1][j];
                         }
